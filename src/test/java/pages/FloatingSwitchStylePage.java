@@ -14,7 +14,7 @@ public class FloatingSwitchStylePage {
     @FindBy(xpath = "//div[contains(@class,'_selected bg-//span[contains(@class,'wp-dark-mode-ignore')][normalize-space()='Light']")
     WebElement floatingSwitchStyle_button;
 
-    public void click_on_enableAdminDashboard_in_button(){
+    public void click_on_floatingSwitchStyle_in_button(){
 
         floatingSwitchStyle_button.click();
     }

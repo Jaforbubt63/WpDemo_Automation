@@ -14,7 +14,8 @@ public class FloatingSwitchSizePage {
     @FindBy(xpath ="//span[normalize-space()='S']")
     WebElement floatingSize_button;
 
-    public void click_on_plugin_button(){
+    public void click_on_floatingSize_in_button(){
+
         floatingSize_button.click();
     }
 

@@ -14,7 +14,8 @@ public class FloatingSwitchPositionPage {
     @FindBy(xpath ="//span[normalize-space()='Left']")
     WebElement floatingSwitchPosition_button;
 
-    public void click_on_plugin_button(){
+    public void click_on_floatingSwitchPosition_in_button(){
+
         floatingSwitchPosition_button.click();
     }
 
